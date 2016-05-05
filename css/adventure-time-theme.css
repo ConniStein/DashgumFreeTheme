@@ -13,10 +13,136 @@
 
 /*Escribe aqui tu codigo */
 
+/*MENU Y HEADER*/
 .black-bg{
-	background-color: #3e4042;
+	background-color: #424A5D;
 }
 
+b, .tooltips, .name-bubblegum, h3{
+	color:#FFF;
+}
+
+/*header*/
+.logout{
+	background-color: #9C4C9D;
+	border:1px solid transparent;
+	color: #FFF;
+	border-radius: 5px;
+	display: inline;
+	bottom: 25px;
+}
+
+.header{
+	/*position: fixed;*/
+	width: 100%;
+	margin-top: 0px;
+	padding:15px 15px 5px 15px;
+	border-bottom: 1px solid #293241;
+	position: absolute;
+}
+
+.sidebar-toggle-box{
+	display: inline;
+	padding-right: 10px;
+	color:#FFF;
+	font-size: 1.5em;
+}
+
+b{
+	display: inline;
+	font-size: 1.5em;
+}
+
+/*vertical menu*/
 #sidebar{
-	background-color: #3e4042;
+	background-color: #424A5D;
+	/*position: fixed;*/
+	left: 0;
+	top:70px;
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 100%;
+	width: 18%;
+	position: relative;
+}
+
+.sidebar-menu{
+	list-style: none;
+	padding: 20px 10px;
+}
+
+span{
+	color: #AEB2B7;
+}
+
+aside .fa{
+	color: #AEB2B7;
+}
+
+span:hover{
+	color: #FFF;
+}
+
+.sub-menu{
+	padding:20px;
+}
+
+.fa{
+	padding-right: 10px;
+}
+
+.sub-menu:hover{
+	background-color: #9C4C9D;
+}
+
+.name-bubblegum{
+	font-size: 1.5em;
+}
+/*FIN MENU Y HEADER*/
+
+/*MAIN CONTENT*/
+#main-content{
+	margin-left: 245px;
+	position: relative;
+}
+
+.main-chart{
+	background-color: #F2F2F2;
+}
+.box-1 span fa{
+	color: #989898;
+}
+
+.showback{
+	background-color: #FFF;
+	padding:15px 10px 5px 10px;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin:6px;
+}
+
+h4{
+	color: #C7C7C7;
+}
+/*FIN MAIN CONTENT*/
+
+/*COL-3*/
+.candy-box{
+	background-color: #9C4C9D;
+	color: #FFF;
+	padding: 15px;
+	font-size: 1em;
+	text-align: center;
+}
+
+.badge .bg-theme{
+	background-color: #68DFF0;
+}
+
+.status-chat{
+	font-style: italic;
+}
+
+.desc{
+	border-bottom: 1px solid #EAEAEA;
+	padding:10px;
 }
