@@ -33,12 +33,14 @@ b, .tooltips, .name-bubblegum, h3{
 }
 
 .header{
-	/*position: fixed;*/
+	position: fixed;
 	width: 100%;
-	margin-top: 0px;
+	top: 0px;
 	padding:15px 15px 5px 15px;
 	border-bottom: 1px solid #293241;
-	position: absolute;
+	/*position: absolute;*/
+	z-index: 999;
+
 }
 
 .sidebar-toggle-box{
@@ -56,14 +58,14 @@ b{
 /*vertical menu*/
 #sidebar{
 	background-color: #424A5D;
-	/*position: fixed;*/
+	position: fixed;
 	left: 0;
 	top:70px;
 	margin-left: 0px;
 	margin-top: 0px;
 	height: 100%;
 	width: 18%;
-	position: relative;
+	/*position: relative;*/
 }
 
 .sidebar-menu{
@@ -103,15 +105,54 @@ span:hover{
 /*MAIN CONTENT*/
 #main-content{
 	margin-left: 245px;
-	position: relative;
+	/*position: ;*/
+	margin-top: 100px;
 }
 
 .main-chart{
 	background-color: #F2F2F2;
 }
-.box-1 span fa{
-	color: #989898;
+
+/*statistics section*/
+.box0{
+	background-color: #F2F2F2;
+	text-align: center;
+	/*padding:20px;*/
+	margin:0px 5px;
 }
+
+.box0:hover{
+	background-color: #FFF;
+}
+
+.red-text{
+	color: #FF9C7A;
+	visibility: hidden;
+}
+
+.red-text:hover{
+	visibility: visible;
+	color: #FF9C7A;
+}
+
+.box1{
+	background-color: #F2F2F2;
+	border-bottom: 1px solid #989898;
+	margin:0px 5px;
+	padding-top: 20px;
+}
+
+
+.box1:hover{
+	background-color: #FFF;
+}
+
+.icon-gray{
+	color: #989898;
+	text-align: center;
+	font-size: 3em;
+}
+
 
 .showback{
 	background-color: #FFF;
@@ -126,6 +167,8 @@ h4{
 /*FIN MAIN CONTENT*/
 
 /*COL-3*/
+
+/*notifications and chat box*/
 .candy-box{
 	background-color: #9C4C9D;
 	color: #FFF;
@@ -134,7 +177,7 @@ h4{
 	text-align: center;
 }
 
-.badge .bg-theme{
+.bg-blue{
 	background-color: #68DFF0;
 }
 
@@ -145,4 +188,20 @@ h4{
 .desc{
 	border-bottom: 1px solid #EAEAEA;
 	padding:10px;
+}
+/*FIN PAGINA DASHBOARD*/
+
+/*___________________________________________________*/
+
+/*COMIENZO PAGINA BASIC TABLES*/
+.content-panel{
+	background-color: #FFF;
+	padding:15px 10px 5px 10px;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin:6px;
+}
+
+.wrapper{
+	color: #797979;
+	padding-left: -10px;
 }
