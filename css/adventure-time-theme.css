@@ -18,7 +18,7 @@
 	background-color: #424A5D;
 }
 
-b, .tooltips, .name-bubblegum, h3{
+.tooltips, .name-bubblegum, h3{
 	color:#FFF;
 }
 
@@ -36,11 +36,15 @@ b, .tooltips, .name-bubblegum, h3{
 	position: fixed;
 	width: 100%;
 	top: 0px;
-	padding:15px 15px 5px 15px;
+	padding:15px 15px 0px 15px;
 	border-bottom: 1px solid #293241;
 	/*position: absolute;*/
 	z-index: 999;
 
+}
+
+a .logo{
+	color: #FFF;
 }
 
 .sidebar-toggle-box{
@@ -99,7 +103,10 @@ span:hover{
 
 .name-bubblegum{
 	font-size: 1.5em;
+	color:#FFF;
+	font-weight: lighter;
 }
+
 /*FIN MENU Y HEADER*/
 
 /*MAIN CONTENT*/
@@ -260,4 +267,19 @@ h4{
 
 .form-blue{
 	border:#68DFF0;
+}
+
+/*FIN PAGINA LOGIN*/
+
+/*COMIENZO PAGINA PROGRESS*/
+.message-alert{
+	font-size: 1em;
+}
+
+.alert-success{
+	color: #3F7840;
+}
+
+.labels-showback{
+	padding-bottom: 15px;
 }
