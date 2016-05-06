@@ -222,3 +222,42 @@ h4{
 }
 
 /*FIN PAGINA GALLERY*/
+
+/*_________________________*/
+
+/*COMIENZO PAGINA LOGIN*/
+.bg-color{
+	background-color: #F2F2F2;
+	height: 100%;
+}
+
+.form-login{
+	width: 30%;
+	padidng:20px;
+	border:1px solid transparent;
+	background-color: #FFF;
+	margin: 5% 0% 20% 35%;
+}
+
+.form-login-heading{
+	background-color: #68DFF0;
+	color: #FFF;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.registration{
+	text-align: center;
+	margin:20px;
+}
+
+.login-wrap{
+	padding:0px 20px;
+}
+
+.form-blue{
+	border:#68DFF0;
+}
